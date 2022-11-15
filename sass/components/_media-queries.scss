@@ -1,0 +1,72 @@
+@media(max-width: 576px){
+
+    .title{
+        display: flex;
+        font-size: 60px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .product-image-wrapper{
+        height: auto;
+    }
+
+    .todo {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    .product-container{
+        width: auto;
+        display: flex;
+        justify-content: center
+    
+    }
+
+    .product-grid-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .contacto-form form {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+}
+@media(min-width: 768px) {
+    .contenedor-contacto{
+        padding: 0 4em;
+    }
+
+    .texto {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 3em;
+        color: #181818;
+    }
+
+    .contacto-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 10px;
+    }
+    .contacto-wrapper > * {
+        padding: 2em;
+    }
+
+    .contacto-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .contacto-info ul li{
+        list-style: none;
+        text-align: left;
+    }
+    .contacto-info p{
+        text-align: left;
+    }
+
+}

@@ -1,0 +1,18 @@
+/**ESTILO "POLITICAS"**/
+
+.politicas {
+    display: flex;
+    height: auto;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #FFFBEE;
+}
+
+#fondo-contacto {
+    width: auto;
+    height: auto;
+    z-index: -1;
+}

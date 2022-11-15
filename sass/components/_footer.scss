@@ -1,0 +1,71 @@
+/**ESTILO DEL FOOTER**/
+
+footer{
+    width: 100%;
+    background-color:rgb(145, 213, 245);
+    background-image: linear-gradient(147deg, #f173bd 0%, #f7a7e9 74%);
+
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.logoFooter{
+    height: 70px;
+    margin-bottom: 1rem;
+}
+
+.socialIconsContainer, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #ebeff5;
+    background-image: url("../img/facebook.svg");
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+    background-color: #c01818;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url("../img/instagram.svg");
+}
+
+.social-icon:nth-of-type(3){
+    background-image: url("../img/whatsapp.svg");
+}
+
+.footer-menu-container{
+    list-style-type: none;
+    color: #070606;
+    font-size: 18px;
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item:hover{
+    opacity: 1;
+}
