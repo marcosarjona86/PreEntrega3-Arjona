@@ -254,6 +254,17 @@ header {
 }
 
 /**ESTILO DEL FOOTER**/
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #e1e2e1;
+}
+
 footer {
   width: 100%;
   background-color: rgb(145, 213, 245);
@@ -266,6 +277,7 @@ footer {
   border-top: 2px solid black;
   display: flex;
   justify-content: center;
+  margin-top: auto;
 }
 
 .logoFooter {
