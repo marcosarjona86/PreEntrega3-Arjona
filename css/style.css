@@ -401,4 +401,26 @@ footer {
   box-sizing: border-box;
 }
 
+/* ESTILO NAVBAR */
+/*======ESTILO HEADER======*/
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.logo-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+/*======ESTILO SLIDER======*/
+.carousel img {
+  height: 75vh;
+}
+
+.carousel-inner {
+  max-height: 39rem;
+}
+
 /*# sourceMappingURL=style.css.map */
